@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Bootstrap_Project</title>
+</head>
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 border-bottom fixed-top">
+        <div class="container-fluid">
+                <a class="navbar-brand fs-2 fw-bold"  href="#">
+                  <img src="logo.png"  alt="" width="40" height="50" class="d-inline-block align-text-top">
+                  Eazy<span class="text-success">fin</span>
+                </a>
+              
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  " >
+                <!-- By ms-auto moves to right for me-auto to left -->
+                
+                <li class="nav-item" >
+                  <a    class="nav-link active" aria-current="page" href="#" >Home</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a  class= "nav-link" href="#" >Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a  class="nav-link" href="#" >About us</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                  <a  class="nav-link " href="#" >Contact us </a>
+                </li>
+                
+              </ul>
+
+          </div>
+        </div>
+      </nav>
+<!-- navbar end -->
+
+<!-- header carousel -->
+
+<header data-aos="fade-right"
+data-aos-offset="500"
+data-aos-easing="ease-in-sine">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="shubham-dhage-e2wPlzu91OQ-unsplash.jpg"  class="d-block w-100" alt="...">
+    
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-2 fw-bolder">Non Fungible Assets</h5>
+              <p class="fs-6">An NFT is a digital asset that exists completely in the digital universe</p>
+            </div>
+         
+        </div>
+          <div class="carousel-item" >
+            <img src="ignacio-correia-nHcsCF6gyio-unsplash.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-2 fw-bolder">Technology three</h5>
+              <p class="fs-6">Some representative placeholder content for the second slide.</p>
+            </div>
+         
+        </div>
+
+          <div class="carousel-item">
+            <img src="etherum.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-2 fw-bolder">Etherum</h5>
+              <p class="fs-6">Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+
+<!-- header carousel end -->
+
+<!-- Section start -->
+<section data-aos="fade-right"
+data-aos-offset="500"
+data-aos-easing="ease-in-sine"  class="about my-5">
+  <div class="container">
+    <div>
+    
+      <h1  class="border-bottom text-center">About <span class="text-success">Me</span></h1>
+
+    </div>
+    <!-- Grid System start -->
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-lg-6">
+      <h1 class="fs-1">In house Products</h1>
+      <p class="p-2 fs-5">We offer best services to our customers across the world regarding financial instruments according to their needs</p>  
+      
+      <!-- aCCORDIAN -->
+
+      <div class="accordion" id="accordionExample">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Tax services
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>We strongly believe that the first step for financial stability is tax planning</strong> It is shown by research that most of us dont't oay intrest towards taxes which makes us vulnerable  .
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Equity Analysis & Advisories
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>We offer best in world equity analysis of current market trend.</strong> Though most of us know about the  market BUY/SELL mechanism but I can firmly say that not much know about the way or the process behind the shares buying and selling at right time we offer mix of well diversified instruments according to the risk profile of the customers
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Insurance Advisories
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Insuring your loved one's after you should be the prime focus of a person</strong> Many of us don't come form a very finacial stable families,the one who suffer the most difficulties are the one who are working hard to earn the livelihood for their children and want to secure their future in this Insurance play the key role.   
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+      <div class="col-md-6 col-sm-12 col-lg-6 m-auto text-end">
+        <img id="imgright_p" src="ali-morshedlou-WMD64tMfc4k-unsplash.jpg" class="img-fluid img-thumbnail" alt=".....">
+      </div>
+    </div>
+    <!-- Grid System end -->
+  </div>
+</section>
+<!-- Section end -->
+
+<!-- Section start -->
+<section data-aos="fade-right"
+data-aos-offset="500"
+data-aos-easing="ease-in-sine" >
+  <div class="container-fluid m-auto border-top bg-light">
+  <div>
+    <h1 class="fs-1 fw-bold text-center">Our <span class="text-warning">Services</span></h1>
+  </div>
+  <div class="row m-4">
+    <div class="col-md-4 col-lg-4">
+              <!-- first product/card(income tax calculator) -->
+              <div class="card" style="width: 18rem;">
+                <img src="incometaxxx.jpg" class="card-img-top" alt="wait">
+                
+                <div class="card-body">
+                  
+                  <h4>Income Tax Calculator</h4>
+                  <p class="card-text">Income tax is a type of tax that 
+                    governments impose on income generated by businesses and individuals 
+                    within their jurisdiction.
+                </p>
+                
+              </div>
+              </div>
+    </div>
+    <div class="col-md-4 col-lg-4">
+              <!-- second product/card ppf calculator -->
+        <div class="card" style="width: 18rem;">
+          <img src="ppf.jpg" class="card-img-top" alt="wait">
+          
+          <div class="card-body">
+            
+            <h4>PPF Calculator</h4>
+            <p class="card-text">Public Provident Fund or PPF is a great tool 
+              to invest not only for tax saving but also the best debt investment product.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4">
+              <!-- third product/card financial planner -->
+        <div class="card" style="width: 18rem;">
+          <img src="finpla.jpg" class="card-img-top" alt="Loading...">
+          <div class="card-body">
+            <h3 class="">Financial Planner</h3>
+            <p class="card-text fs-6">Financial planner helps to decide you your monthly
+               budget according to your current age and order of designation or state in  life.</p>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+</div>
+</section>
+<!-- Section end -->
+
+<section data-aos="fade-right"
+data-aos-offset="500"
+data-aos-easing="ease-in-sine" class="contact py-5 ">
+<div class="container ">
+  <div>
+    <h1 class="text-center m-5 border-bottom w-22"><span class="text-success">Eazify</span> Your Finance </h1>
+    <!-- <h4 class="text-end "><i class="fa fa-handshake-o bg-warning text-black"></i></i>Connect with us</h4> -->
+  </div>
+  
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-12">
+
+        <!-- form start -->
+
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Accept terms and conditions
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </div>
+        </form>
+
+        <!-- form end-->
+
+      </div>
+      
+      <div class="col-md-6 col-lg-6 col-12 py-4 ">
+        <img class="img-thumbnail text-end" src="business-partners-handshake-vector-id1255811173.jpg" alt="..">
+      </div>
+    </div>
+
+</div>
+</section>
+
+<!-- <footer> -->
+  <div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-md-12 col-lg-12 ">
+      <h1>fllow</h1>
+      <i  ></i>
+      
+    </div>
+  </div>
+</div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
